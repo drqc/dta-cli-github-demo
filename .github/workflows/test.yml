@@ -38,7 +38,7 @@ jobs:
           DYNATRACE_SSO_URL: ${{ secrets.DYNATRACE_SSO_URL }}
           SRG_EVALUATION_STOP_ON_FAILURE: "true"
           SRG_EVALUATION_SERVICE: "astroshop"
-          SRG_EVALUATION_STAGE: "staging"
+          SRG_EVALUATION_STAGE: "dev"
           SRG_EVALUATION_START_TIME: "${{ needs.test.outputs.startTime }}"
           SRG_EVALUATION_END_TIME: "${{ needs.test.outputs.endTime }}"
           SRG_EVALUATION_VERSION: "1.0.0"
